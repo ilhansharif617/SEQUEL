@@ -29,7 +29,7 @@ VALUES
 --write a queary that select all the bank product names to see the options--
 
 select product_name
-from bank_products
+from bank_products;
 
 -- Write a query that uses OR to show the product names that have a Checking OR Savings product type--
 
@@ -44,4 +44,4 @@ select product_name
 from bank_products
 where product_type="Savings"
 and interest_rate>=0.75
-and monthly_fee=0
+and monthly_fee=0;
