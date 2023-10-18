@@ -40,7 +40,7 @@ where product_type="Internet";
 --Write a query that will select the customer IDs for all the customers who are subscribed to High-Speed Internet (product_id =1)--
 select customer_id
 from customer_subscriptions
-where product_id=1
+where product_id=1;
 
 --Write a query that will select the email addresses of all the customers who are subscribed to products with the "Internet" product type--
 select email
